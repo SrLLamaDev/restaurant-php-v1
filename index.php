@@ -2,7 +2,7 @@
 <!--bs-5$ lo que genere-->
 <html lang="en">
   <head>
-    <title>SrLLamaDev Restaurant</title>
+    <title>SrLLamaDev's Restaurant</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -45,14 +45,14 @@
               <a class="nav-link" href="#inicio" style="color: #fffffb; text-decoration: none;" 
                 onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
                 onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
-                Inicio
+                Begin
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#menu" style="color: #fffffb; text-decoration: none;" 
                 onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
                 onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
-                Menú del día
+                Today Menu
               </a>
             </li>
             <li class="nav-item">
@@ -66,21 +66,21 @@
               <a class="nav-link" href="#testimonios" style="color: #fffffb; text-decoration: none;" 
                 onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
                 onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
-                Testimonio
+                Test
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contacto" style="color: #fffffb; text-decoration: none;" 
                 onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
                 onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
-                Contacto
+                Contact
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#horario" style="color: #fffffb; text-decoration: none;" 
                 onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
                 onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
-                Horario
+                Schedule
               </a>
             </li>
             
@@ -100,7 +100,7 @@
             style="background-color: #001f3f; color: #fffffb; border: none; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; transition: background-color 0.3s, transform 0.2s;" 
             onmouseover="this.style.backgroundColor='#003366'; this.style.transform='scale(1.05)'; this.style.color='#f1f1f1';" 
             onmouseout="this.style.backgroundColor='#001f3f'; this.style.transform='scale(1)'; this.style.color='#fffffb';">
-            Ver Menú
+            Menus
           </a>
         </div>
       </div>
@@ -118,7 +118,7 @@
 
     <!--CHEFS-->
     <section id="chefs" class="container mt-4 text-center">
-      <h2>Nuestros Chefs</h2>
+      <h2>About Chefs</h2>
       
       <div class="row">
         <div class="col-md-4">
