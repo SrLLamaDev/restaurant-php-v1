@@ -13,6 +13,8 @@ if($_POST) {
     //print_r($titulo);
     //print_r($descripcion);
 
+    //testeando comentarios
+    
     //las sentencias se cumplen correctamente
     $sentencia=$conexion-> prepare("INSERT INTO `tbl_banners` (`ID`, `titulo`, `descripcion`, `link`) VALUES (NULL, :titulo, :descripcion, :link);");
 
