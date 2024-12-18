@@ -2,7 +2,7 @@
 <!--bs-5$ lo que genere-->
 <html lang="en">
   <head>
-    <title>Restaurante</title>
+    <title>SrLLamaDev Restaurant</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -29,10 +29,10 @@
   
     <!--SECCION DE MENU-->
       <!--bs5-navbar-minimal-ul lo que genere-->
-    <nav id="inicio" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="inicio" class="navbar navbar-expand-lg navbar-dark" style="background-color: #001f3f">
         <div class="container">
 
-        <a class="navbar-brand" href="#"><i class="fas fa-utensils"></i> Restaurante Yamil</a>
+        <a class="navbar-brand" href="#"><i class="fas fa-utensils"></i> SrLLamaDev's Restaurant </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,46 +42,76 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#inicio">Inicio</a>
+              <a class="nav-link" href="#inicio" style="color: #fffffb; text-decoration: none;" 
+                onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
+                onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
+                Inicio
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#menu">Menú del día</a>
+              <a class="nav-link" href="#menu" style="color: #fffffb; text-decoration: none;" 
+                onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
+                onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
+                Menú del día
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#chefs">Chefs</a>
+              <a class="nav-link" href="#chefs" style="color: #fffffb; text-decoration: none;" 
+                onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
+                onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
+                Chefs
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonios">Testimonio</a>
+              <a class="nav-link" href="#testimonios" style="color: #fffffb; text-decoration: none;" 
+                onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
+                onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
+                Testimonio
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
+              <a class="nav-link" href="#contacto" style="color: #fffffb; text-decoration: none;" 
+                onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
+                onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
+                Contacto
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#horario">Horario</a>
+              <a class="nav-link" href="#horario" style="color: #fffffb; text-decoration: none;" 
+                onMouseOver="this.style.cssText='color: #faff5e; text-decoration: underline;'" 
+                onMouseOut="this.style.cssText='color: #fffffb; text-decoration: none;'">
+                Horario
+              </a>
             </li>
+            
           </ul>
         </div>
       </div>
     </nav>
 
-
     
     <!--BANNER-->
     <section class="container-fluid p-0">
       <div class="banner-img" style="position:relative; background:url('images/imagen2.webp') center/cover no-repeat; height:400px;">
-        <div class="banner-text" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:#fff">
-          <h1>Panda Guerrero</h1>
-          <p>Restaurante del mejora sabor, riquito papito!</p>
-          <a href="#menu" class="btn btn-primary">Ver Menú</a>
+        <div class="banner-text" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color: #fffffb">
+          <h1>Restaurant project: PHP-mysql-html-css-bootstrap-js</h1>
+          <p>Restaurant with the best flavor, delicious daddy!</p>
+          <a href="#menu" class="btn" 
+            style="background-color: #001f3f; color: #fffffb; border: none; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; transition: background-color 0.3s, transform 0.2s;" 
+            onmouseover="this.style.backgroundColor='#003366'; this.style.transform='scale(1.05)'; this.style.color='#f1f1f1';" 
+            onmouseout="this.style.backgroundColor='#001f3f'; this.style.transform='scale(1)'; this.style.color='#fffffb';">
+            Ver Menú
+          </a>
         </div>
       </div>
     </section>
+    <!--FIN BANNER-->
 
     <section id="id" class="container mt-4 text-center">
-      <div class="jumbotron bg-danger text-white">
+      <div class="jumbotron text-white" style="background-color: #001f3f;">
         <br/>
-        <h2>Bienvenido al Restaurante Panda Guerrero</h2>
-        <p>Desubre la experincia culinaria más top del mundo</p>
+        <h2>Welcome to the restaurant</h2>
+        <p>Discover the best culinary experience in the world</p>
         <br/>
       </div>
     </section>
