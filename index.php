@@ -108,7 +108,7 @@
     <!--FIN BANNER-->
 
     <section id="id" class="container mt-4 text-center">
-      <div class="jumbotron text-white" style="background-color: #001f3f;">
+      <div class="jumbotron text-white" style="background-color: #001f3f">
         <br/>
         <h2>Welcome to the restaurant</h2>
         <p>Discover the best culinary experience in the world</p>
@@ -229,7 +229,7 @@
           <div class="card">
             <img src="images/menu/caldo.jpeg" alt="caldo" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">corn broth</h5>
+              <h5 class="card-title">Corn broth</h5>
               <p class="card-text small"><strong>Ingredients:</strong>Rice, Salt, Water</p>
               <p class="card-text"> <strong>Price:</strong> $3.99</p>
             </div>
@@ -240,7 +240,7 @@
           <div class="card">
             <img src="images/menu/caldo2.jpeg" alt="caldo2" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">chicken soup</h5>
+              <h5 class="card-title">Chicken soup</h5>
               <p class="card-text small"><strong>Ingredients:</strong>Rice, Salt, Water, Chicken, Vegetables</p>
               <p class="card-text"> <strong>Price:</strong> $5.99</p>
             </div>
@@ -251,7 +251,7 @@
           <div class="card">
             <img src="images/menu/caldo3.jpeg" alt="caldo3" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Clam Chowder</h5>
+              <h5 class="card-title">Modern Soup</h5>
               <p class="card-text small"><strong>Ingredientes:</strong>Potatos, Carrots, Celery, Onion, Water, Salt</p>
               <p class="card-text"> <strong>Price:</strong> $8.99</p>
             </div>
@@ -262,7 +262,7 @@
           <div class="card">
             <img src="images/menu/caldo.jpeg" alt="caldo4" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">meat broth</h5>
+              <h5 class="card-title">Meat broth</h5>
               <p class="card-text small"><strong>Ingredientes:</strong>Arroz, Sal, Agua, Vegetables, Meet</p>
               <p class="card-text"> <strong>Price:</strong> $13.99</p>
             </div>
@@ -279,12 +279,12 @@
 
         <div class="mb-3">
           <label for="name">Name</label><br>
-          <input class="form-control" type="text" name="nombre" placeholder="Esxribe tu nombre..." required>
+          <input class="form-control" type="text" name="nombre" placeholder="Write a name..." required>
         </div>
 
         <div class="mb-3">
           <label for="email">E-mail</label><br>
-          <input class="form-control" type="email" name="correo" placeholder="Escribe tu correo..." required>
+          <input class="form-control" type="email" name="correo" placeholder="Write an E-mail..." required>
         </div>
 
         
@@ -294,7 +294,7 @@
         </div>
         
         <div>
-          <input class="btn btn-primary" type="submit" value="Enviar Mensaje">
+          <input style="background-color: #001f3f" class="btn btn-primary" type="submit" value="Submit a Message">
         </div>
 
       </form>
