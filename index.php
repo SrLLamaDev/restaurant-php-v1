@@ -94,11 +94,11 @@
     <section class="container-fluid p-0">
       <div class="banner-img" style="position:relative; background:url('images/imagen2.webp') center/cover no-repeat; height:400px;">
         <div class="banner-text" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color: #fffffb">
-          <h1>Restaurant project: PHP-mysql-html-css-bootstrap-js</h1>
-          <p>Restaurant with the best flavor, delicious daddy!</p>
+          <h1 style="color:rgb(255, 255, 244)">Restaurant project: PHP-mysql</h1>
+          <p style="color:rgb(255, 255, 244)">Restaurant with the best flavor, delicious daddy!</p>
           <a href="#menu" class="btn" 
             style="background-color: #001f3f; color: #fffffb; border: none; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; transition: background-color 0.3s, transform 0.2s;" 
-            onmouseover="this.style.backgroundColor='#003366'; this.style.transform='scale(1.05)'; this.style.color='#f1f1f1';" 
+            onmouseover="this.style.backgroundColor='#0555a5'; this.style.transform='scale(1.05)'; this.style.color='#f1f1f1';" 
             onmouseout="this.style.backgroundColor='#001f3f'; this.style.transform='scale(1)'; this.style.color='#fffffb';">
             Menus
           </a>
@@ -127,8 +127,9 @@
           </div>
           
           <div class="card-body">
+            <p></p>
             <h5 class="card-title">Chef 1</h5>
-            <p class="card-text">El Chef Macmani</p>
+            <p class="card-text">Smith Johnson</p>
             <div class="social-icons mt-3">
               <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
               <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
@@ -144,8 +145,9 @@
           </div>
           
           <div class="card-body">
+            <p></p>
             <h5 class="card-title">Chef 2</h5>
-            <p class="card-text">El Chef Quispe</p>
+            <p class="card-text">Williams Brown</p>
             <div class="social-icons mt-3">
               <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
               <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
@@ -161,8 +163,9 @@
           </div>
           
           <div class="card-body">
+            <p></p>
             <h5 class="card-title">Chef 3</h5>
-            <p class="card-text">El Chef Riquito</p>
+            <p class="card-text">Rebeca Miller</p>
             <div class="social-icons mt-3">
               <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
               <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
@@ -183,16 +186,18 @@
     <!--TESTIMONIOS-->
     <section id="testimonios" class="bg-light py-5">
       <div class="container">
-        <h2 class="text-center mb-4">Testimonios</h2>
+        <h2 class="text-center mb-4">Relats</h2>
         <div class="row">
 
           <div class="col-md-6 d-flex">
             <div class="card mb-4 w-100">
               <div class="card-body">
-                <p class="card-text"> Riquito papitoy! </p>
+                <p class="card-text">
+                  People who love to eat are always the best people.
+                </p>
               </div>
               <div class="card-footer text-muted">
-                Oscar XD
+                Oscar Guillberto
               </div>
             </div>
           </div>
@@ -200,10 +205,12 @@
           <div class="col-md-6 d-flex">
             <div class="card mb-4 w-100">
               <div class="card-body">
-                <p class="card-text"> Riquito papitoy! </p>
+                <p class="card-text">
+                  Don't leave for tomorrow what you can eat today  
+                </p>
               </div>
               <div class="card-footer text-muted">
-                Oscar XD
+                Sarah Rutteford 
               </div>
             </div>
           </div>
@@ -214,7 +221,7 @@
 
     <!--MENU-->
     <section id="menu" class="container mt-4">
-      <h2 class="text-center"> Menu (nuestra recomendacion) </h2>
+      <h2 class="text-center"> Menus (Our recommendation) </h2>
       <br>
       <div class="row row-cols-1 row-cols-md-4 g-4">
 
@@ -222,9 +229,9 @@
           <div class="card">
             <img src="images/menu/caldo.jpeg" alt="caldo" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Caldo de Maiz</h5>
-              <p class="card-text small"><strong>Ingredientes:</strong>Arroz, Sal, Agua</p>
-              <p class="card-text"> <strong>Precio:</strong> $3.99</p>
+              <h5 class="card-title">corn broth</h5>
+              <p class="card-text small"><strong>Ingredients:</strong>Rice, Salt, Water</p>
+              <p class="card-text"> <strong>Price:</strong> $3.99</p>
             </div>
           </div>
         </div>
@@ -233,9 +240,9 @@
           <div class="card">
             <img src="images/menu/caldo2.jpeg" alt="caldo2" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Caldo Semola</h5>
-              <p class="card-text small"><strong>Ingredientes:</strong>Arroz, Sal, Agua</p>
-              <p class="card-text"> <strong>Precio:</strong> $3.99</p>
+              <h5 class="card-title">chicken soup</h5>
+              <p class="card-text small"><strong>Ingredients:</strong>Rice, Salt, Water, Chicken, Vegetables</p>
+              <p class="card-text"> <strong>Price:</strong> $5.99</p>
             </div>
           </div>
         </div>
@@ -244,9 +251,9 @@
           <div class="card">
             <img src="images/menu/caldo3.jpeg" alt="caldo3" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Caldo de Huevo</h5>
-              <p class="card-text small"><strong>Ingredientes:</strong>Arroz, Sal, Agua</p>
-              <p class="card-text"> <strong>Precio:</strong> $3.99</p>
+              <h5 class="card-title">Clam Chowder</h5>
+              <p class="card-text small"><strong>Ingredientes:</strong>Potatos, Carrots, Celery, Onion, Water, Salt</p>
+              <p class="card-text"> <strong>Price:</strong> $8.99</p>
             </div>
           </div>
         </div>
@@ -255,9 +262,9 @@
           <div class="card">
             <img src="images/menu/caldo.jpeg" alt="caldo4" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Caldo de Carne</h5>
-              <p class="card-text small"><strong>Ingredientes:</strong>Arroz, Sal, Agua</p>
-              <p class="card-text"> <strong>Precio:</strong> $3.99</p>
+              <h5 class="card-title">meat broth</h5>
+              <p class="card-text small"><strong>Ingredientes:</strong>Arroz, Sal, Agua, Vegetables, Meet</p>
+              <p class="card-text"> <strong>Price:</strong> $13.99</p>
             </div>
           </div>
         </div>
@@ -266,23 +273,23 @@
     
     <!--CONTACTO-->
     <section id="contacto" class="container mt-4">
-      <h2>Contacto</h2>
-      <p>Estamos aqui para servirle</p>
+      <h2>Contact us</h2>
+      <p>We are here to serve you</p>
       <form action="?" method="post">
 
         <div class="mb-3">
-          <label for="name">Nombre</label><br>
+          <label for="name">Name</label><br>
           <input class="form-control" type="text" name="nombre" placeholder="Esxribe tu nombre..." required>
         </div>
 
         <div class="mb-3">
-          <label for="email">Correo Electronico</label><br>
+          <label for="email">E-mail</label><br>
           <input class="form-control" type="email" name="correo" placeholder="Escribe tu correo..." required>
         </div>
 
         
         <div class="mb-3">
-          <label for="message">Mensaje</label><br>
+          <label for="message">Massage</label><br>
           <textarea class="form-control" name="mensaje" id="message" cols="50" rows="6"></textarea><br>
         </div>
         
@@ -295,20 +302,20 @@
     <br><br>
     <!--HORARIO-->
     <div id="horario" class="text-center bg-light p-4">
-      <h3 class="mb-4">Horario de atencion</h3>
+      <h3 class="mb-4">Opening hours</h3>
 
       <div>
-        <p><strong>Lunes a Viernes</strong></p>
+        <p><strong>Mnday to Friday</strong></p>
         <p><strong>11:00 a.m. - 10:00 p.m.</strong></p>
       </div>
 
       <div>
-        <p><strong>Sabado</strong></p>
+        <p><strong>Saturday</strong></p>
         <p><strong>12:00 a.m. - 5:00 p.m.</strong></p>
       </div>
 
       <div>
-        <p><strong>Domingo</strong></p>
+        <p><strong>Sunday</strong></p>
         <p><strong>07:00 a.m. - 2:00 p.m.</strong></p>
       </div>
 
