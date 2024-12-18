@@ -324,7 +324,7 @@
     <footer class="bg-dark text-light text-center py-3">
       <!-- place footer here -->
       <!-- Sirve para vision de la empresa, copyrht -->
-      <p> &copy; 2024 todos los derechos reservados UwU - Onichan</p>
+      <p> &copy; Hi guys this is a web pratice, I want to know PHP</p>
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
